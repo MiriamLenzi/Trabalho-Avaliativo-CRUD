@@ -1,0 +1,13 @@
+CREATE DATABASE cadastro_servico;
+USE cadastro_servico;
+
+
+CREATE TABLE servicos (
+    ID_SERVICO INT AUTO_INCREMENT PRIMARY KEY,
+    VALOR_SERVICO DECIMAL(10, 2) NOT NULL,
+    DESCRICAO VARCHAR(255) NOT NULL,
+    TEMPO INT NOT NULL
+);
+
+
+select*from servicos;
